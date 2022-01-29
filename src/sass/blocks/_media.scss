@@ -95,18 +95,11 @@
         &__icons {
             margin-top: 20px;
             flex-wrap: wrap;
-/*             &:last-child {
-                justify-content: center;
-                margin-right: 0;
-            } */
         }
         &__icon {
-            margin-right: 18px;
+            
             &:last-child {
-                
-                margin-right: 0;
                 margin: 0 auto;
-
             }
             img {
                 margin-top: 20px;
@@ -122,25 +115,62 @@
     }
 }
 @media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 170px;
+            margin-right: 10px;
+        }
+        &__phone {
+            font-size: 13px;
+        }  
+    }
     .promo {
-        min-height: 460px;
+        min-height: 475px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 40px;
+        }
         &__header {
-            font-size: 26px;
-            line-height: 0;
+            font-size: 30px;
+            text-align: center;
         }
         &__subheader {
-            margin-top: 5px;
-            font-size: 12px;
+            margin-top: 0;
+            font-size: 15px;
+            text-align: center;
         }
         &__icons {
-            margin-top: 25px;
-            flex-wrap: wrap;
-
+            flex-direction: column;
+            margin-top: 0;
+            align-items: center;
         }
         &__icon {
-            /* align-items: center; */
-            
+            font-size: 14px;
+            margin-top: 15px;
+            width: 110px;
+        }
+        &__link {
+            margin-top: 20px;
+            font-size: 14px;
         }
     }
-
+    .button {
+        width: 140px;
+        height: 22px;
+        &_main {
+            margin-top: 25px;
+            width: 220px;
+            height: 30px;
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        &__icons {
+            margin-top: 5px;
+            flex-direction: column;
+        }
+        &__icon {
+            margin: 0 auto;
+        }
+    }
 }
