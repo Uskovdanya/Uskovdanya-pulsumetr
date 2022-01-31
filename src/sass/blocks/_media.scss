@@ -1,6 +1,4 @@
-@media (max-width: 1200px) {
 
-}
 @media (max-width: 991px) {
     .header {
         &__logo {
@@ -31,6 +29,9 @@
         &_main {
             margin-top: 50px;
         }
+        &_submit {
+            height: 50px;
+        }
     }
     .advantages {
         min-height: 435px;
@@ -51,6 +52,23 @@
             margin-top: 15px;
         }
     }
+    .consultation {
+        min-height: 620px;
+        padding: 80px 40px 92px 40px;
+        &__subheader{
+            &_left {
+                font-size: 34px;
+            }
+        }
+
+    }
+    .feed-form {
+        width: 290px;
+        input {
+            height: 45px;
+        }
+    }
+
 }
 @media (max-width: 767px) {
     .header {
@@ -72,6 +90,10 @@
             height: 40px;
             font-size: 14px;
         }
+        &_submit {
+            height: 45px;
+            width: 100%;        }
+        
     }
     .promo {
         &__header {
@@ -93,6 +115,7 @@
     .advantages {
         padding: 20px 40px 30px 40px;
         &__icons {
+            justify-content: space-around;
             margin-top: 20px;
             flex-wrap: wrap;
         }
@@ -112,7 +135,30 @@
     }
     .subheader {
         font-size: 27px;
+        &_left {
+            font-size: 30px;
+        }
     }
+    .feed-form {
+        width: 280px;
+
+    }
+    .consultation {
+        padding: 65px 40px 87px 40px;
+        min-height: 570px;
+        &__desc {
+            font-size: 18px;
+        }
+
+    }
+    .feed-form {
+        width: 280px;
+        input {
+            height: 40px;
+        }
+    }
+
+
 }
 @media (max-width: 575px) {
     .header {
@@ -173,4 +219,12 @@
             margin: 0 auto;
         }
     }
+    .subheader {
+        font-size: 25px;
+        &_left {
+            text-align: center;
+        } 
+    }
+    
+
 }
