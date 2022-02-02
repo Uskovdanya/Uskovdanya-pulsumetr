@@ -201,6 +201,7 @@
         }
     }
     .button {
+        
         width: 140px;
         height: 22px;
         &_main {
@@ -209,6 +210,11 @@
             height: 30px;
             font-size: 12px;
         }
+        &_submit {
+            height: 45px;
+            width: 100%; 
+        }
+        
     }
     .advantages {
         &__icons {
@@ -224,6 +230,17 @@
         &_left {
             text-align: center;
         } 
+    }
+    .feed-form {
+        
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .consultation {
+        min-height: 540px;
+        &__desc {
+            text-align: center;
+        }
     }
     
 
