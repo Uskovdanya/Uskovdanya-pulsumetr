@@ -8,37 +8,27 @@ const slider = tns({
   nav: false,
   navPosition: 'bottom',
   responsive: {
-
     320: {
-      items: 1,
       nav: true
     },
 
     575: {
-      items: 1,
       nav: true
     },
 
     767: {
-
-      items: 1,
       nav: true
     },
 
     991: {
-
-      items: 1,
       nav: true
     },
 
     992: {
-
-      items: 1,
       nav: false
     },
 
     1200: {
-      items: 1,
       nav: false
     }
   }
