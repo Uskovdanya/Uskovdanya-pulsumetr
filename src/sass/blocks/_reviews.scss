@@ -1,0 +1,57 @@
+.reviews {
+    padding: 0 0 35px 0;
+    min-height: 968px;
+    &__items {
+        margin: 70px 0 0 0;
+        hr {
+            margin-left: 18px;
+
+            width: 940px;
+            height: 1px;
+            color: #646464;
+            margin-top: 48px;
+            margin-bottom: 53px;
+        }
+    }
+    &__item {
+        
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+
+    }
+
+    &__photo {
+        width: 169px;
+        margin-right: 62px;
+        Img {
+            width: 100%;
+            
+        }
+    }
+    &__desc {
+        width: 665px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+    &__maraphones {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    
+
+
+
+}
