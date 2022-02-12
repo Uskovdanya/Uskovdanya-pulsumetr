@@ -12,6 +12,7 @@
             right: -10px;
         }
     }
+
     .reviews {
         &__items {
             margin: 60px 20px 0 20px;
@@ -21,7 +22,8 @@
 
         }
     }
-}
+
+};
 @media (max-width: 991px) {
     .header {
         &__logo {
@@ -122,6 +124,15 @@
             margin-right: 40px;
         }
     }
+    .footer {
+
+        &__info {
+            padding: 35px 50px 30px 50px;
+            width: 430px;
+            min-height: 250px;
+        }
+    }
+
 }
 @media (max-width: 767px) {
     .header {
@@ -145,7 +156,8 @@
         }
         &_submit {
             height: 45px;
-            width: 100%;        }
+            width: 100%; 
+        }
         
     }
     .promo {
@@ -264,10 +276,34 @@
             margin-top: 10px;
         }
     }
-    
+    .footer {
 
+        &__info {
+            padding: 35px 40px 30px 40px;
+            width: 420px;
+            min-height: 240px;
+        }
+        &__adress {
+            font-size: 19px;
+        }
+        &__phone {
+            font-size: 19px;
+            margin-bottom: 33px;
+            
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+            img {
+                height: 22px;
+            }
+
+        }
+
+    }
 }
 @media (max-width: 575px) {
+
     .header {
         &__logo {
             width: 170px;
@@ -379,18 +415,42 @@
 
         }
     }
+    .footer {
+        &__info {
+            padding: 30px 19px 25px 19px;
+            width: 330px;
+            min-height: 200px;
+        }
+        &__adress {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 18px;
+            margin-bottom: 23px;
+            
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 20px;
+            }
 
+        }
 
+    }
 }
 @media (max-width: 320px) {
+
     .promo {
         &__wrapper {
             margin-top: 25px;
-
         }
     }
-    .carousel{
+    .carousel {
         padding: 50px 0 70px 0;
+        
     }
     .catalog {
         padding-bottom: 35px;
@@ -398,5 +458,28 @@
             margin-top: 40px;
         }
     }
+    .footer {
+        &__info {
+            width: 320px;
+            min-height: 180px;
+            padding: 30px 20px 25px 20px;
+        }
 
+        &__adress {
+            
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+            
+        }
+        &__social-item {
+            width: 35px;
+            height: 35px;
+            img {
+                height: 18px;
+            }
+        }
+
+    }
 }
