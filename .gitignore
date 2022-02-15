@@ -1,6 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-/src/mailer/smart.php
-/dist/mailer/smart.php
+src/mailer/smart.php
+dist/mailer/smart.php
 # dependencies
 /node_modules
 
