@@ -132,6 +132,17 @@
             min-height: 250px;
         }
     }
+    .modal {
+        width: 355px;
+        min-height: 380px;
+        padding: 28px 34px 33px 34px;
+        &__close {
+            right: -33px;
+            font-size: 38px;
+            line-height: 17px;
+        }
+
+    }
 
 }
 @media (max-width: 767px) {
@@ -301,6 +312,33 @@
         }
 
     }
+    .modal {
+        width: 320px;
+        min-height: 360px;
+        padding: 28px 30px 33px 30px;
+        &__subtitle {
+            font-size: 16px;
+
+        }
+        &__descr {
+            font-size: 13px;
+
+        }
+        &__close {
+            right: -31px;
+            font-size: 35px;
+            line-height: 17px;
+        }
+
+    }
+    .feed-form {
+
+        &_mt25 {
+            width: 260px;
+
+        }
+    }
+
 }
 @media (max-width: 575px) {
 
@@ -418,7 +456,7 @@
     .footer {
         &__info {
             padding: 30px 19px 25px 19px;
-            width: 330px;
+            width: 320px;
             min-height: 200px;
         }
         &__adress {
@@ -439,6 +477,46 @@
 
         }
 
+    }
+    .modal {
+        width: 281px;
+        min-height: 335px;
+        padding: 25px 20px 28px 20px;
+        &__subtitle {
+            font-size: 14px;
+            margin-bottom: 9px;
+
+        }
+        &__descr {
+            font-size: 11px;
+
+        }
+        &__close {
+            right: -21px;
+            font-size: 30px;
+            line-height: 13px;
+        
+        }
+        
+    }
+    .feed-form {
+
+        &_mt25 {
+            width: 221px;
+            
+            input {
+                font-size: 12px;
+                padding: 0 12px;
+            }
+
+
+            
+        }
+    }
+    .button {
+        &_submit {
+            font-size: 14px;
+        }
     }
 }
 @media (max-width: 320px) {
@@ -481,5 +559,19 @@
             }
         }
 
+    }
+    .modal {
+        width: 270px;
+        min-height: 330px;
+        padding: 24px 20px 28px 20px;
+
+    }
+    .feed-form {
+
+        &_mt25 {
+            margin-top: 15px;
+            font-size: 14px;
+
+        }
     }
 }
