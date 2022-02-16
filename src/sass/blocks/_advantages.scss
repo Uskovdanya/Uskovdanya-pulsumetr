@@ -12,15 +12,24 @@
     &__icon {
         display: block;
         max-width: 238px;
-        img {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 38px;
+
+    }
+    &__item {
+
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 38px;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+
+            &:hover {
+                animation-play-state: paused;
+            }
         }
+
     }
     &__header {
         text-align: center;
-        margin-top: 38px;
         font-size: 18px;
         font-weight: 700;
         color: #0d0d0d;

@@ -147,6 +147,36 @@ $(document).ready(function(){
     });
     return false;
   });
+
+  // pageup
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 1600) {
+      $('.pageup').fadeIn();
+    } else {
+      $(".pageup").fadeOut();
+    }
+
+  });
+
+
+  // Smooth scroll
+
+
+
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+  
+
 }); 
 
 
