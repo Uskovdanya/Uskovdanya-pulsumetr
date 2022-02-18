@@ -1,25 +1,18 @@
 .reviews {
     padding: 0 0 35px 0;
     min-height: 968px;
-    &__items {
-        margin: 70px 0 0 0;
-        hr {
-            margin-left: 18px;
+    
 
-            width: 940px;
-            height: 1px;
-            color: #646464;
-            margin-top: 48px;
-            margin-bottom: 53px;
-        }
-    }
     &__item {
-        
         display: flex;
         justify-content: center;
         align-items:center;
-        
+        margin: 100px 10px 0 10px;
+        &:nth-child(1) {
+            margin-top: 70px;
+        }
 
+        
     }
 
     &__photo {
@@ -31,7 +24,7 @@
         }
     }
     &__desc {
-        width: 665px;
+        width: 670px;
     }
     &__name {
         font-size: 18px;
@@ -39,6 +32,7 @@
 
     }
     &__maraphones {
+        margin-top: 10px;
         font-size: 14px;
         font-weight: 300;
         color: #646464;
