@@ -120,30 +120,14 @@
         &__content {
             width: 50%;
             margin-right: 0;
-            transform: translateX(-100%);
+            transform: translateX(-104%);
             transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
             }
         }
-        &__back {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(calc(-50% - 19px));
-            display: block;
-            font-size: 14px;
-            font-weight: 500;
-            text-decoration: underline;
-            text-transform: uppercase;
-            color: $main-color;
-            &:hover {
-                color: $main-color
-            }
 
-
-        }
         &__list {
             position: relative;
             width: 50%;
@@ -154,11 +138,15 @@
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
-            
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0;
+            }
+            ul {
+                padding-inline-start: 0;
+
                 li {
+                    list-style-type: none;
                     position: relative;
                     font-size: 14px;
                     font-weight: 300;
@@ -174,11 +162,23 @@
                         left: -14px;
                     }
                 }
-
             }
             
-
         }
-
+        &__back {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 19px));
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: $main-color;
+            &:hover {
+                color: $main-color
+            }
+        }
     }
 }
